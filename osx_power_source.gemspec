@@ -6,13 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "osx_power_source"
   s.version     = OsxPowerSource::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
-
-  s.rubyforge_project = "osx_power_source"
+  s.authors     = ["Alex McHale"]
+  s.email       = ["alexmchale@gmail.com"]
+  s.homepage    = "https://github.com/alexmchale/osx_power_source"
+  s.summary     = %q{Gem that provides an easy interface to determine whether an OSX machine is on A/C or battery."}
+  s.description = %q{}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
