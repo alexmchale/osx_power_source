@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    osx_power_source (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  osx_power_source!
