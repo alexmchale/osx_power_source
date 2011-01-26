@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "osx_power_source"
+require "shellwords"
+
+OsxPowerSource.on_ac do
+  args = ARGV.map { |arg| Shellwords.shellwords arg }.join(" ")
+  exec args
+end
